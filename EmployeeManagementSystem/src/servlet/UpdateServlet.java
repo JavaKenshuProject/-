@@ -53,7 +53,7 @@ public class UpdateServlet extends HttpServlet {
         String lkana_name = request.getParameter("lkana_name");
         String fkana_name = request.getParameter("fkana_name");
         String sex = request.getParameter("sex");
-        String sectionName = request.getParameter("sectionName");
+        String sectionName = request.getParameter("sectionname");
         System.out.println(sectionName);
         int count = 0;
 
